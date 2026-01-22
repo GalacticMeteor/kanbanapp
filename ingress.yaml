@@ -20,7 +20,7 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: kanban-app-service
+            name: kanban-app
             port:
               number: 8080
   - host: adminer.local
